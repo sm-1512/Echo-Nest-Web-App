@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head.ejs') %>
+  <title>Update Blog</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="add-blog-page">
+    <div class="container-addBlog">
+      <h1>Update Blog</h1>
+      <form action="/blog/update/<%= blog._id %>" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+
+        <!-- Title Input -->
+        <div>
+          <label for="title">Title:</label>
+          <input 
+            type="text" 
+            id="title" 
+            name="title" 
+            class="form-control" 
+            value="<%= blog.title %>" 
+            required
+          >
+        </div>
+
+        <!-- Body Textarea -->
+        <div>
+          <label for="body">Body:</label>
+          <textarea 
+            id="body" 
+            name="body" 
+            class="form-control" 
+            rows="10" 
+            required
+          ><%= blog.body %></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn-primary">Update</button>
+      </form>
+    </div>
+  </div>
+
+  <%- include('./partials/scripts.ejs') %>
+</body>
+</html>

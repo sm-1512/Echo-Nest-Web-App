@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head.ejs') %>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body class="signup-page">
+  <%- include('./partials/nav.ejs') %>
+
+  <div class="container">
+    <h1>Sign Up</h1>
+    <div>
+      <% if (locals.error) { %>
+        <div class="alert alert-danger">
+          <%= locals.error %>
+        </div>
+      <% } %>
+    </div>
+    
+    <form action="/user/signup" method="POST">
+      <div>
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" name="fullName">
+      </div>
+      <div>
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div>
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <%- include('./partials/scripts.ejs') %>
+</body>
+</html>

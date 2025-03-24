@@ -1,0 +1,418 @@
+/* ====== Navbar Styles ====== */
+.navbar {
+  background: #000 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: #ccc !important;
+}
+
+/* Dropdown */
+.navbar .dropdown-menu {
+  background: #fff;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-item {
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar .dropdown-item:hover {
+  background: #f0f0f0;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+
+
+
+/* ====== Add New Blog Page ====== */
+.add-blog-page {
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+  }
+  
+  /* Container */
+  .add-blog-page .container-addBlog {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings & Labels */
+  .add-blog-page h1,
+  .add-blog-page label {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Form Controls */
+  .add-blog-page .form-control {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  /* Textarea */
+  .add-blog-page textarea.form-control {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  /* Submit Button */
+  .add-blog-page .btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* Button Hover */
+  .add-blog-page .btn-primary:hover {
+    background-color: #333;
+  }
+  
+  /* File Input */
+  .add-blog-page input[type="file"] {
+    cursor: pointer;
+  }
+  
+  /* ====== Blog Page Styles ====== */
+.blog-page {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  padding: 40px 0;
+}
+
+/* Container */
+.blog-page .container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.blog-page h1,
+.blog-page h2 {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Cover Image */
+.blog-page .cover-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Blog Body */
+.blog-page pre {
+  background: #f2f2f2;
+  padding: 20px;
+  border-left: 3px solid #000;
+  border-radius: 6px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 25px 0;
+}
+
+/* Author Info */
+.blog-page .author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+}
+
+.blog-page .author-info img {
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+/* Comments Section */
+.blog-page .comment-section {
+  margin-top: 40px;
+}
+
+/* Comments List */
+.blog-page .list-group {
+  padding: 0;
+  list-style: none;
+}
+
+.blog-page .list-group-item {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Comment Info */
+.blog-page .commenter-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.blog-page .btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: block;
+  margin: 20px auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.blog-page .btn-primary:hover {
+  background-color: #333;
+}
+
+.blog-page .btn-danger {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.blog-page .btn-danger:hover {
+  background-color: #c9302c;
+}
+
+/* ====== Home Page Styles ====== */
+.home-page {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.home-page .container {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* Card */
+.home-page .card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8f9fa;
+  color: #000;
+}
+
+.home-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image */
+.home-page .card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.home-page .card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Card Title */
+.home-page .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* View Button */
+.home-page .btn-primary {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-page .btn-primary:hover {
+  background-color: #333333;
+}
+
+/* ====== Sign In Page Styles ====== */
+.signin-page {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.signin-page .container {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings and Labels */
+.signin-page h1,
+.signin-page label {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Form Control */
+.signin-page .form-control {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.signin-page .btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: block;
+  margin: 20px auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signin-page .btn-primary:hover {
+  background-color: #333;
+}
+
+/* ====== Sign Up Page Styles ====== */
+.signup-page {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.signup-page .container {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings and Labels */
+.signup-page h1,
+.signup-page label {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Form Control */
+.signup-page .form-control {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.signup-page .btn-primary {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: block;
+  margin: 20px auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signup-page .btn-primary:hover {
+  background-color: #333;
+}
+
