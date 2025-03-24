@@ -1,13 +1,6 @@
 Echo Nest 📝
 
-Echo Nest is a simple and intuitive blogging web app that lets users create, update, and share their stories. Built with a clean and minimalistic design, the app ensures easy navigation and a smooth user experience.![Uploading Screenshot 2025-03-25 001316.png…]()
-![Screenshot 2025-03-25 001300](https://github.com/user-attachments/assets/a5a70762-e0dc-4dd4-90a0-d8f381405860)
-![Screenshot 2025-03-25 001238](https://github.com/user-attachments/assets/89d01e69-1750-4c10-9d29-b034bc5067ed)
-![Screenshot 2025-03-25 001208](https://github.com/user-attachments/assets/6d9af137-9266-4d11-b9cb-45bb2a54e991)
-![Screenshot 2025-03-25 001144](https://github.com/user-attachments/assets/365ff875-4055-4219-ae83-f340a9aacfec)
-![Screenshot 2025-03-25 001128](https://github.com/user-attachments/assets/ad09b2eb-8d0c-45c7-ad9d-8d782e40253e)
-![Screenshot 2025-03-25 001114](https://github.com/user-attachments/assets/4f49af4d-21c1-45e4-8c46-3d3a1f6d3a20)
-
+Echo Nest is a simple and intuitive blogging web app that lets users create, update, and share their stories. Built with a clean and minimalistic design, the app ensures easy navigation and a smooth user experience.
 
 🚀 Tech Stack:
 - **Frontend:** HTML, CSS, JavaScript, EJS  
@@ -61,3 +54,13 @@ Echo Nest is a simple and intuitive blogging web app that lets users create, upd
 Feel free to submit issues or pull requests. Let’s build something great together! 🚀
 
 Enjoy blogging with Echo Nest! 🌱
+
+![Screenshot 2025-03-25 001316](https://github.com/user-attachments/assets/82fce5fa-1b61-4947-b103-ad1d37bf6cea)
+![Screenshot 2025-03-25 001300](https://github.com/user-attachments/assets/cbbd46bc-5ff8-4c11-9a91-53fb3d12039d)
+![Screenshot 2025-03-25 001238](https://github.com/user-attachments/assets/0fbdbb84-c347-4720-8368-330b4478d509)
+![Screenshot 2025-03-25 001208](https://github.com/user-attachments/assets/53f71274-0bf9-4f38-b13f-f0286e02a759)
+![Screenshot 2025-03-25 001144](https://github.com/user-attachments/assets/dd502410-4d4e-4b19-9e16-1a1d7c406625)
+![Screenshot 2025-03-25 001128](https://github.com/user-attachments/assets/f8e4b11b-f18e-4ebf-882f-7126e46a0d48)
+![Screenshot 2025-03-25 001114](https://github.com/user-attachments/assets/11342719-84eb-4714-aef5-2c20f6a533dc)
+![Screenshot 2025-03-01 220109](https://github.com/user-attachments/assets/f286cda0-c1fb-437d-adcb-9409a65b224d)
+
