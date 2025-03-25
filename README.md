@@ -56,11 +56,14 @@ Feel free to submit issues or pull requests. Let’s build something great toget
 Enjoy blogging with Echo Nest! 🌱
 
 Screenshots!!
+![1](https://github.com/user-attachments/assets/80f12f28-b78c-4117-8389-222e73a3d319)
 
-![1](https://github.com/user-attachments/assets/3ad3aafe-00cd-481a-bf99-e06cec656466)
-![2](https://github.com/user-attachments/assets/f6971b7e-d9db-4d29-814b-16691b785f63)
-![3](https://github.com/user-attachments/assets/ea17b7ec-0f68-4ba2-97d1-1ed07903be96)
-![4](https://github.com/user-attachments/assets/4f0774d3-2396-4045-9226-9d061ca6dfcc)
-![5](https://github.com/user-attachments/assets/46ca8b50-9f9a-4a46-9e9e-1c864f28ac1e)
-![6](https://github.com/user-attachments/assets/e67068fa-ce2e-419d-868b-700277b79610)
-![7](https://github.com/user-attachments/assets/376b80ed-29b3-4558-a42b-1f04e21ca313)
+![2](https://github.com/user-attachments/assets/9bcb6773-4c90-4570-bcaa-390dc36fa640)
+
+![3](https://github.com/user-attachments/assets/25498299-38c0-4f53-884e-15226fcb9dac)
+
+![4](https://github.com/user-attachments/assets/0fefe7ac-4733-44bd-b615-84f004b9604e)
+
+![5](https://github.com/user-attachments/assets/fb88b869-4971-49cc-8ce0-fe10bf828403)
+
+
